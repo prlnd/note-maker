@@ -1,9 +1,9 @@
 {- Szövegformázás -}
--- Mondatjel felismerése (1 pont)
+-- Mondatjel felismerése
 isEndMark :: Char -> Bool
 isEndMark c = c `elem` ".?!"
 
--- Szavak összefűzése (2 pont)
+-- Szavak összefűzése
 unwords' :: [String] -> String
 unwords' [] = []
 unwords' [x] = x
@@ -11,13 +11,13 @@ unwords' (x:xs)
   | isEndMark $ last x = x ++ "  " ++ unwords' xs
   | otherwise = x ++ " " ++ unwords' xs
 
--- Távolság (1 pont)
+-- Távolság
 d :: (Ord a, Num a) => a -> a -> a
 d x y
   | x < y = 5 * (y - x)
   | otherwise = x - y
 
--- Egy sorba beférő szavak (4 pont)
+-- Egy sorba beférő szavak
 fit :: (Int -> Int -> Int) -> Int -> [String] -> [String]
 fit f n xxs@(x:_) =
   let fit' :: (Int -> Int -> Int) -> Int -> [String] -> [String]
@@ -32,7 +32,7 @@ fit f n xxs@(x:_) =
       res = fit' f n xxs
   in if null res then [x] else res
 
--- A szöveg feldarabolása (3 pont)
+-- A szöveg feldarabolása
 cut :: (Int -> Int -> Int) -> Int -> [String] -> [[String]]
 cut f n [] = []
 cut f n xs =
@@ -41,7 +41,7 @@ cut f n xs =
       xs' = drop len xs
   in x : cut f n xs'
 
--- -- Formázás (1 pont)
+-- -- Formázás
 format :: Int -> String -> String
 format n s =
   let format' :: [[String]] -> String
