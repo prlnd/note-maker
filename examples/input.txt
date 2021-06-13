@@ -1,0 +1,23 @@
+<format length=60>
+<h1>Ez egy sablon</h1>
+<p>A sorhossz 60</p>
+<h2>peldak:</h2><h2>entitasok</h2>
+&amp;amp; = &amp;
+&amp;lt; = &lt;
+&amp;gt; = &gt;
+
+ez egy nagyon hosszu sor ~~~~ ~~~~ ~~~~ ~~~~~ ~~~~~~~ ~~~~~~ ~~~~~~~~~ ~~~~~ ~~~~~~~ ~~~ ~~~ ~~~~ ~~~~~ ~~~~ ~~~~~~~ ~~~~
+<hr>_</hr>
+ 
+<h2>cimkek</h2>
+&lt;up&gt; = <up>pelda szoveg    sablon</up>
+&lt;low&gt; = <low>pelda szoveg    sablon</low>
+&lt;cap&gt; = <cap>pelda szoveg    sablon</cap>
+&lt;apart&gt; = <apart>pelda szoveg    sablon</apart>
+&lt;p&gt; = <p>pelda szoveg     sablon</p>
+&lt;h1&gt; = <h1>pelda szoveg     sablon</h1>
+&lt;h2&gt; = <h2>pelda szoveg     sablon</h2>
+&lt;hr&gt; = <hr>peldaszovegsablon</hr>
+&lt;rev&gt; = <rev>pelda szoveg    sablon</rev>
+&lt;--&gt; = <-->pelda szoveg    sablon</-->
+&lt;rpn&gt; = <rpn>9 inc 2 * 3 5 dec + * 10 /</rpn>

@@ -1,0 +1,40 @@
+
+
+********************** EZ EGY SABLON **********************
+
+
+A sorhossz 60
+
+
+~~~~~~~~~~~~~ Peldak: ~~~~~~~~~~~~~
+
+~~~~~~~~~~~~ Entitasok ~~~~~~~~~~~~
+
+&amp; = &
+&lt; = <
+&gt; = >
+
+ez egy nagyon hosszu sor ~~~~ ~~~~ ~~~~ ~~~~~ ~~~~~~~ ~~~~~~
+~~~~~~~~~ ~~~~~ ~~~~~~~ ~~~ ~~~ ~~~~ ~~~~~ ~~~~ ~~~~~~~ ~~~~
+____________________________________________________________
+
+
+~~~~~~~~~~~~~ Cimkek ~~~~~~~~~~~~~
+
+<up> = PELDA SZOVEG SABLON
+<low> = pelda szoveg sablon
+<cap> = Pelda Szoveg Sablon
+<apart> = p e l d a s z o v e g s a b l o n 
+<p> = 
+pelda szoveg sablon
+
+<h1> = 
+***************** PELDA SZOVEG SABLON *****************
+
+<h2> = 
+~~~~~~~~~ Pelda Szoveg Sablon ~~~~~~~~~
+
+<hr> = peldaszovegsablonpeldaszovegsablonpeldaszovegsablonpeldaszov
+<rev> = nolbas gevozs adlep
+<--> = 
+<rpn> = 14
